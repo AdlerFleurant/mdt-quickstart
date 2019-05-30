@@ -24,5 +24,5 @@ Modify .openshift/dashboard-devops.yml by modifying the data->devops.json locati
 Once completed, run: 
 
 ```bash
-$ ./create-grafana.sh
+$ ./redeploy-grafana.sh
 ```

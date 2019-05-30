@@ -5,4 +5,4 @@ oc apply -f https://raw.githubusercontent.com/redhat-cop/openshift-toolkit/maste
 oc apply -f .openshift/dashboard-devops.yml
 oc apply -f https://raw.githubusercontent.com/redhat-cop/openshift-toolkit/master/custom-dashboards/.openshift/manifests/grafana-service.yml -n openshift-monitoring
 oc apply -f https://raw.githubusercontent.com/redhat-cop/openshift-toolkit/master/custom-dashboards/.openshift/manifests/grafana-route.yml -n openshift-monitoring
-oc apply -f ./openshift/grafana-deployment.yml -n openshift-monitoring
+oc apply -f .openshift/grafana-deployment.yml -n openshift-monitoring
