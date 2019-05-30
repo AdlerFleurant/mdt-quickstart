@@ -1,4 +1,4 @@
-# Metrics Driven Transormation Quickstart
+# Metrics Driven Transformation Quickstart
 
 Assets to rapidly demonstrate Metrics Driven Transformation (MDT) on the OpenShift Container Platform
 
@@ -11,7 +11,7 @@ Assets to rapidly demonstrate Metrics Driven Transformation (MDT) on the OpenShi
 ## Provision
 
 In order to create or update  the grafana environment.
-* Login to openshift with an administrative account
+* Login to openshift with an an account with administrative privileges.
 
 Execute the following command to provision the environment:
 
