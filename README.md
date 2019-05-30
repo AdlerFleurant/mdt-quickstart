@@ -19,7 +19,7 @@ Execute the following command to provision the environment:
 $ ./create-grafana.sh
 ```
 
-In to modify the DevOps Dashboard, it is recommended to work in grafana and then to export the json configuration.
+In order to modify the DevOps Dashboard, it is recommended to work in grafana and then to export the json configuration.
 Modify .openshift/dashboard-devops.yml by modifying the data->devops.json location into the exported dashboard configuration.
 Once completed, run: 
 
