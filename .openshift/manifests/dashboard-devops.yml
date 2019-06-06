@@ -389,7 +389,7 @@ data:
           "tableColumn": "Value",
           "targets": [
             {
-              "expr": "(delta(openshift_apps_deploymentconfigs_complete_rollouts_total{phase=\"available\"}[12h])/delta(openshift_apps_deploymentconfigs_complete_rollouts_total{phase=\"available\"}[12h] offset 12h))",
+              "expr": "(delta(openshift_apps_deploymentconfigs_complete_rollouts_total{phase=\"available\"}[12h])-delta(openshift_apps_deploymentconfigs_complete_rollouts_total{phase=\"available\"}[12h] offset 12h))/delta(openshift_apps_deploymentconfigs_complete_rollouts_total{phase=\"available\"}[12h] offset 12h)",
               "format": "time_series",
               "hide": false,
               "instant": false,
@@ -796,7 +796,7 @@ data:
       "timezone": "",
       "title": "K8s / Custom / DevOps",
       "uid": "IxBzgcqmz",
-      "version": 1
+      "version": 2
     }
 kind: ConfigMap
 metadata:
